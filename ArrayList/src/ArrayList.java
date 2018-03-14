@@ -37,7 +37,7 @@ public class ArrayList {
 	public int getIndexByElement(int element) {
 		for(int i = 0 ; i < arrayList.length ; i++) {
 			if(element == arrayList[i]) {
-				return i-1;
+				return i+1;
 			}
 		}
 		return -1;
